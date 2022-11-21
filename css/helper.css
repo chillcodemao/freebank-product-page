@@ -1,0 +1,447 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: linear-gradient(99.59deg, #181e2d 22.25%, #9e8f7a 168.98%);
+  mix-blend-mode: normal;
+  background-repeat: no-repeat;
+  color: #dadada;
+}
+
+.nav {
+  background-color: rgba(24, 30, 45, 0.8);
+  max-height: 6.5rem;
+}
+
+.nav__logo {
+  max-width: 12.5rem;
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #dadada;
+  line-height: 2.7rem;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+button {
+  font-family: 'Nunito Sans', sans-serif;
+  border: none;
+  box-sizing: border-box;
+}
+
+.nav__btn {
+  background-color: #c58936;
+  border-radius: 4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+
+.btn__show--modal-login {
+  color: #dadada;
+  text-decoration: none;
+}
+
+.header__title h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.5rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.header__title--highlight {
+  color: #9e8f7a;
+}
+
+.header__title p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 5rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.header__btn {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #c58936;
+  line-height: 3.3rem;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0rem;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* underline transition */
+.header__btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0.17rem;
+  top: 3.5rem;
+  left: 0;
+  background-color: #c58936;
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header__btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+/* underline transition */
+
+.slider__title h4 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.slider__title span {
+  font-weight: 300;
+  color: #c58936;
+}
+
+.slider__title p {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #dadada;
+}
+
+.slider__container {
+  background: #181e2d;
+  border: 0.1rem solid #c58936;
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.section__title--highlight {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #c58936;
+}
+
+.overview__title--logo {
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.overview__topic--title {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: #c58936;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.overview__topic--content {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #dadada;
+}
+
+.features__tab {
+  max-width: 30rem;
+  background-color: #383c47;
+  /* background-color: #181e2d; */
+  border-radius: 4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #dadada;
+  text-decoration: none;
+}
+
+.features__highlights {
+  font-weight: 400;
+  color: #c58936;
+}
+
+.features__logo {
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.features__topic--title {
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: #c58936;
+  text-shadow: 0.2rem 0.4rem 0.2rem rgba(0, 0, 0, 0.3);
+}
+
+.features__topic--content {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #dadada;
+}
+
+.testimonal__title--img {
+  box-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.testimonial__title--title {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: #c58936;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.testimonial__text {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #dadada;
+}
+
+.testimonial__author {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #dadada;
+}
+
+.slider__btn {
+  width: 4rem;
+  height: 4rem;
+  text-decoration: none;
+  background-color: transparent;
+  border: solid 0.15rem #dadada;
+  border-radius: 50%;
+  color: #c58936;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2.5rem;
+}
+
+.section__signup {
+  background-color: #383c47;
+  border-top: 0.1rem solid #c58936;
+  border-bottom: 0.1rem solid #c58936;
+  box-sizing: border-box;
+}
+
+.btn__show--modal-subscribe {
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #dadada;
+  line-height: 3.3rem;
+  text-decoration: none;
+  background-color: #c58936;
+  border: none;
+  border-radius: 4rem;
+}
+
+.footer__left--info-title {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  color: #9e8f7a;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+
+.footer__right h4 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 3rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.contact__type {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #9e8f7a;
+}
+
+.contact__text {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #dadada;
+}
+
+.legal__info p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #dadada;
+}
+
+.disclaimer__text {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #9e8f7a;
+}
+
+.modal__subscribe {
+  background: linear-gradient(
+    109.01deg,
+    rgba(255, 255, 255, 0.4) 14.79%,
+    rgba(255, 255, 255, 0.1) 64.14%
+  );
+  box-shadow: 0rem 0.4rem 2.4rem -1rem rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2rem);
+}
+
+.modal__title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: #dadada;
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.modal__highlight {
+  color: #c58936;
+}
+
+.modal__form-subscribe label {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #dadada;
+}
+
+.modal__form-subscribe input {
+  background: #dadada;
+  box-shadow: inset 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  border: none;
+  text-decoration: none;
+}
+
+.btn__submit {
+  background: #c58936;
+  box-shadow: 0.2rem 0.4rem 0.2rem rgba(0, 0, 0, 0.3);
+  border-radius: 4rem;
+  color: #dadada;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+
+.modal__login {
+  background-color: #181e2d;
+  box-shadow: 0rem 0.4rem 2.4rem -1rem rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2rem);
+}
+
+.modal__title--login {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #dadada;
+}
+
+.user__email::placeholder,
+.user__password::placeholder {
+  color: #9e8f7a;
+}
+
+.forgot__password {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #9e8f7a;
+}
+
+.no__account {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #dadada;
+}
+
+.signup {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: #9e8f7a;
+  text-transform: capitalize;
+}
+
+.btn__login {
+  background-color: #c58936;
+  color: #dadada;
+  border-radius: 4rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.7rem;
+}
+
+.modal__recovery {
+  background-color: #e6e6e6;
+  border: 0.1rem solid #c58936;
+  box-shadow: 0rem 0.4rem 2.4rem rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2rem);
+}
+
+.btn__close--modal-recovery {
+  text-shadow: 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.recovery__logo--container {
+  border: 0.1rem solid #c58936;
+  border-radius: 50%;
+  background-color: #dadada;
+}
+
+.modal__title--recovery {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #181e2d;
+}
+
+.recovery__info {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: rgba(56, 60, 71, 0.7);
+}
+
+.modal__form--recovery {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: rgba(56, 60, 71, 0.7);
+}
+
+.recovery__input {
+  background: #dadada;
+  border: 0.1rem solid #383c47;
+  box-shadow: inset 0.2rem 0.4rem 0.4rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.4rem;
+  line-height: 3rem;
+}
+
+.btn__submit--recovery {
+  background-color: #181e2d;
+  color: #c58936;
+}
