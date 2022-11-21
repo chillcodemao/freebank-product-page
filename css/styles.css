@@ -1627,7 +1627,7 @@ img {
 
   .header__img {
     max-height: 24rem;
-    background-image: url(/img/header-img-mobile.svg);
+    background-image: url(./img/header-img-mobile.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
