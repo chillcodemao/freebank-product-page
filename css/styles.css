@@ -18,7 +18,7 @@ body {
   position: relative;
   min-height: 100vh;
   align-self: auto;
-  background-image: url(https://github.com/chillcodemao/freebank-product-page/blob/d050f2ffbac3f90fedc5a253814060f5a455bcb9/img/header-background.png);
+  background-image: url('/img/header-background.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -1627,7 +1627,7 @@ img {
 
   .header__img {
     max-height: 24rem;
-    background-image: url(https://github.com/chillcodemao/freebank-product-page/blob/d050f2ffbac3f90fedc5a253814060f5a455bcb9/img/header-img-mobile.svg);
+    background-image: url('/img/header-img-mobile.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
