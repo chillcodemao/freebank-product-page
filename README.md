@@ -38,6 +38,9 @@
 - no user credentials storing and checking implemented
 - show alert messsage when submitting recover password form
 
+!Note:
+- additional responsive @media point to be implemented with dedicated mobile design @375px (new nav as well) - in progress
+
 
 **Misc**
 - text editor used: VS Code
