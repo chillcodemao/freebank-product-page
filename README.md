@@ -16,7 +16,7 @@
 - animate revealing page sections
 - implement "Features" tabbed component
 - create Customer testimonials slider with navigation
-- implement footer section
+- create footer section
 
 
 **Functionality & Rules**
