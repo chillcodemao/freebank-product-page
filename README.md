@@ -26,7 +26,7 @@
 - navbar is sticky and is dinamically attached to the top of the viewport usign DOM manipulation, when page sections intersect viewport, with Intersection Obserbver API
 - navbar links hover efect using DOM event delegation
 - trusted partenrs carousel slider is animated with keyframes to scroll the logos alternatively; overflow hidden on X axis, any resolution
-- carousel animation will be paused on mouse over and resumed whe mouse exists the sider; no link clicking implemented;
+- carousel animation will be paused on mouse over and resumed when mouse exists the slider area; no link clicking implemented;
 - "Features" images are lazy loaded for improved page loading time, using "data-src" property on image elements
 - create a tabbed component to shwocase the main Freebank features
 - tab display logic using DOM manipulation: active classes assigned to active content and made visible to user
